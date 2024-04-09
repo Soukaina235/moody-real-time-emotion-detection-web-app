@@ -5,11 +5,11 @@ The project is built, mainly using Python and Flask, providing a user-friendly i
 
 ## 📸 Demo
 
-![App Screenshot](https://github.com/Soukaina235/JsfDaoCrudProject/blob/main/demo/welcome.png)
-![App Screenshot](https://github.com/Soukaina235/JsfDaoCrudProject/blob/main/demo/detection1.png)
-![App Screenshot](https://github.com/Soukaina235/JsfDaoCrudProject/blob/main/demo/detection2.png)
-![App Screenshot](https://github.com/Soukaina235/JsfDaoCrudProject/blob/main/demo/about1.png)
-![App Screenshot](https://github.com/Soukaina235/JsfDaoCrudProject/blob/main/demo/about2.png)
+![App Screenshot](https://github.com/Soukaina235/moody-real-time-emotion-detection-web-app/blob/main demo/welcome.png)
+![App Screenshot](https://github.com/Soukaina235/moody-real-time-emotion-detection-web-app/blob/main/demo/detection1.png)
+![App Screenshot](https://github.com/Soukaina235/moody-real-time-emotion-detection-web-app/blob/main/demo/detection2.png)
+![App Screenshot](https://github.com/Soukaina235/moody-real-time-emotion-detection-web-app/blob/main/demo/about1.png)
+![App Screenshot](https://github.com/Soukaina235/moody-real-time-emotion-detection-web-app/blob/main/demo/about2.png)
 
 ## 🛠️ Installation
 
