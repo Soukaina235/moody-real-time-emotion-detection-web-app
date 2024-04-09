@@ -1,0 +1,32 @@
+numpy==1.22.0
+opencv-python==4.2.0.32
+tensorflow==2.9.3
+opencv_contrib_python_headless>=4.7.0.72
+pydot>=1.4.2
+aggdraw
+visualkeras
+graphviz>=0.20.1
+	dependencies for graphviz: 
+	freetype, highway, imath, xz, zstd, libtiff, little-cms2, openexr, webp, jpeg-xl, aom, gd, 
+	glib, jasper, netpbm, gts, xorgproto, libxau, libxdmcp, libxcb, libx11, libxext, libxrender,
+	lzo, pixman, cairo, gdk-pixbuf, fribidi, graphite2, harfbuzz, pango and librsvg
+
+
+dans ce fichier : /anaconda3/lib/python3.9/site-packages/matplotlib/axis.py
+A) Si vous êtes sur MacOS :
+Il faut remplacer ce code : 
+ticklabels = [t.get_text() if hasattr(t, 'get_text') else t
+                for t in ticklabels]
+Par celui-ci :
+ticklabels = []
+    for t in ticklabels:
+        if hasattr(t, 'get_text'):
+          ticklabels.append(t.get_text())
+B) Si vous êtes sur Windows :
+labels = [t.get_text() if hasattr(t, 'get_text') else t
+                for t in ticklabels]
+Par celui-ci :
+labels = []
+            for t in labels:
+                if hasattr(t, 'get_text'):
+                    labels.append(t.get_text())

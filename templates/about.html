@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+
+  <title>MOODY</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{{ url_for('static', filename= 'img/favicon1.png') }}" rel="icon">
+
+
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{{ url_for('static', filename= 'vendor/aos/aos.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename= 'vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename= 'vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename= 'vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename= 'vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename= 'vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}" />
+  <link href="{{ url_for('static', filename= 'animate/animate.min.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename= 'animate/animate.css') }}" rel="stylesheet">
+  <link href="{{ url_for('static', filename= 'owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+
+  {% block content %}
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container d-flex align-items-center justify-content-between position-relative">
+
+      <div class="logo">
+        <a href="{{ url_for('index')}}"><img src="{{ url_for('static', filename= 'img/logo.png') }}" width="40%"></a>
+      </div>
+      <!-- .navbar -->
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="{{ url_for('index')}}">Accueil </a></li>
+          <li><a class="nav-link scrollto" href="{{ url_for('Model')}}">Lancer Détection </a></li>
+          <li><a class="nav-link scrollto  active" href="{{ url_for('about')}}">À Propos </a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+    </div>
+
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= About Section ======= -->
+  <section id="particles-js">
+    <div class="hero-container">
+      <div class="row py-5">
+        <div class="col-12 pt-lg-5 mt-lg-5 text-center">
+          <h1 class="display-4 text-white animated zoomIn">À Propos de Nous</h1>
+          <a href="{{ url_for('index')}}" class="text">Accueil</a>
+          <i class="far fa-circle text-white px-2"></i>
+          <a href="{{ url_for('about')}}" class="text">À Propos</a>
+        </div>
+      </div>
+  </section>
+  <section id="particles-js">
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-7">
+            <div class="section-title position-relative pb-3 mb-5">
+              <h5 class="fw-bold  text-uppercase" style="text-align: left;">À Propos de Nous </h5>
+            </div>
+            <p class="content-text mb-4" style="text-align: justify;">
+              &nbsp&nbsp&nbspBienvenue sur Moody, une plateforme qui exploite les dernières avancées en vision par
+              ordinateur
+              et
+              en intelligence artificielle pour détecter les émotions à partir des expressions faciales. Notre service
+              est
+              conçu pour aider les entreprises et les particuliers à comprendre les réponses émotionnelles de leurs
+              clients,
+              utilisateurs ou audiences, et à améliorer l'efficacité de leurs produits, services ou campagnes.<br><br>
+              &nbsp&nbsp&nbspQue vous soyez un marketeur qui souhaite tester l'efficacité de vos annonces, un concepteur
+              qui
+              souhaite
+              optimiser l'expérience utilisateur de votre application, un thérapeute qui souhaite surveiller l'humeur de
+              vos
+              patients ou un chercheur qui souhaite étudier les émotions humaines, Moody peut vous fournir les
+              outils et les informations dont vous avez besoin. Notre service est facile à utiliser, sécurisé et
+              abordable.
+            </p>
+          </div>
+          <div class="col-lg-5" style="min-height: 400px;">
+            <div class="position-relative h-100">
+              <div class="lava"></div>
+              <div class="sphere"></div>
+            </div>
+          </div>
+          <p class="content-text" style="text-align: center; font-size: 20px; margin-top: 25px;">Merci de visiter
+            Moody, et nous sommes impatients de
+            vous aider à débloquer le
+            pouvoir des
+            émotions!</p>
+        </div>
+      </div>
+    </div>
+
+    {%endblock%}
+  </section>
+
+
+
+
+
+  <script src="{{ url_for('static', filename= 'vendor/purecounter/purecounter_vanilla.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'vendor/aos/aos.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/particles.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/app.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'vendor/glightbox/js/glightbox.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'vendor/swiper/swiper-bundle.min.js') }}"></script>
+
+
+  <script src="{{ url_for('static', filename= 'wow/wow.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'easing/easing.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'waypoints/waypoints.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'counterup/counterup.min.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'owlcarousel/owl.carousel.min.js') }}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{{ url_for('static', filename= 'js/main.js') }}"></script>
+  <script src="{{ url_for('static', filename= 'js/main1.js') }}"></script>
+
+
+
+</body>
+
+</html>
