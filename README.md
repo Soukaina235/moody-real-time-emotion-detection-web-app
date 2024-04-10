@@ -49,4 +49,5 @@ After thorough evaluation, we selected the best-performing model for integration
 ## 🤝 Members
 
 [Hamdoune Chaymae](https://github.com/Hchaymae)<br />
-[fzhachchane](https://github.com/fzhachchane)
+[fzhachchane](https://github.com/fzhachchane)<br />
+[Soukaina](https://github.com/Soukaina235)
