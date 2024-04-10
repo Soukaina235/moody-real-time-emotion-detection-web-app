@@ -37,7 +37,7 @@ visualkeras
 
 - Real-time Emotion Detection: The project incorporates a real-time emotion detection model.
 - Face Detection: The model utilizes the Haar cascade model to detect faces in real-time camera feeds.
-- Emotion Display: Detected emotions are displayed in a square overlay on top of the detected face.
+- Emotion Display: Detected emotions are displayed in a square overlay on top of the detected face(s).
 - Emotion Saving: Predictions are saved into a CSV file for further analysis and tracking.
 
 ## 🌟 Datasets & Model Architecture
