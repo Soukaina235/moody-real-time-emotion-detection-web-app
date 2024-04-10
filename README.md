@@ -3,6 +3,8 @@
 This repository contains the source code for Moody, a real-time emotion detection model integrated into a web application. <br/>
 The project is built, mainly using Python and Flask, providing a user-friendly interface.
 
+---
+
 ## 🤝 Members
 
 [HChaymae](https://github.com/Hchaymae)<br />
