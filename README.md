@@ -37,6 +37,7 @@ tqdm
 matplotlib
 os
 visualkeras
+TensorFlow
 ```
 
 ## ⭐Features
