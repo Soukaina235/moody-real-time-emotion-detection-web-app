@@ -5,9 +5,9 @@ The project is built, mainly using Python and Flask, providing a user-friendly i
 
 ## 🤝 Members
 
-[Hamdoune Chaymae](https://github.com/Hchaymae)<br />
+[HChaymae](https://github.com/Hchaymae)<br />
 [fzhachchane](https://github.com/fzhachchane)<br />
-[Soukaina](https://github.com/Soukaina235)
+[Soukaina235](https://github.com/Soukaina235)
 
 ## 📸 Demo
 
