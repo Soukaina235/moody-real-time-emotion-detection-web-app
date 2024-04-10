@@ -23,7 +23,7 @@ The project is built, mainly using Python and Flask, providing a user-friendly i
 ```
 opencv
 numpy
-kera
+keras
 csv
 pandas
 PIL
