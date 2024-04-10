@@ -3,6 +3,12 @@
 This repository contains the source code for Moody, a real-time emotion detection model integrated into a web application. <br/>
 The project is built, mainly using Python and Flask, providing a user-friendly interface.
 
+## 🤝 Members
+
+[Hamdoune Chaymae](https://github.com/Hchaymae)<br />
+[fzhachchane](https://github.com/fzhachchane)<br />
+[Soukaina](https://github.com/Soukaina235)
+
 ## 📸 Demo
 
 ![App Screenshot](https://github.com/Soukaina235/moody-real-time-emotion-detection-web-app/blob/main/demo/welcome.png)
@@ -45,9 +51,3 @@ visualkeras
 Our project utilized two different datasets: [FER 2013 from Kaggle](https://www.kaggle.com/datasets/msambare/fer2013) and [CKextended]().<br>
 We experimented with two different model architectures on each dataset, resulting in four different models in total. <br>
 After thorough evaluation, we selected the best-performing model for integration into our web application.
-
-## 🤝 Members
-
-[Hamdoune Chaymae](https://github.com/Hchaymae)<br />
-[fzhachchane](https://github.com/fzhachchane)<br />
-[Soukaina](https://github.com/Soukaina235)
